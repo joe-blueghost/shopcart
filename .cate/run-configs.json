@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "id": "019d406a-f80f-7915-8cc9-09bf97bb425f",
+      "name": "ShopCart",
+      "commands": [
+        {
+          "id": "019d406a-f80f-79b9-94e7-75ef4b063134",
+          "name": "run",
+          "command": "npm install && npm run dev"
+        }
+      ]
+    }
+  ]
+}
