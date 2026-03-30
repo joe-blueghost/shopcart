@@ -1,14 +1,10 @@
 # ShopCart — Cate Demo App
 
-A Nuxt 3 / Vue 3 / Pinia / PrimeVue 4 shopping cart application used as the demo project during Cate onboarding.
-
-## Purpose
-
-This app is a "prop" — it exists to let Cate's agents look impressive during first-run onboarding. The Pinia store has all business logic pre-built and working. Agents only need to make small wiring changes (connecting a handler, swapping a static element for a component) to complete their assigned issues.
+A Nuxt 3 / Vue 3 / Pinia / PrimeVue 4 shopping cart application used as the quickstart for Cate onboarding.
 
 ## Intentional Gaps
 
-The cart page has three intentional gaps that demo agents are assigned to fix:
+The cart page has three intentional gaps to fix:
 
 1. **Quantity stepper** (`pages/index.vue`) — rendered with `:disabled="true"`, missing `@update:modelValue` handler
    - TODO: Connect to `cart.updateQuantity(item.id, newQty)`
